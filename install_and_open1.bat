@@ -40,3 +40,5 @@ if %errorlevel% equ 0 (
 ) else (
     echo Es gab ein Problem beim Starten des PowerShell-Skripts.
 )
+
+Programm_welches_das_eigentliche_Autostartet.bat
